@@ -1,0 +1,21 @@
+name,category,serial,cost,bought,condition,assigned_to,maintenance_cost,service_count
+Dell OptiPlex 7090,Desktop,SN-OP7090-11,62000,2021-07-12,good,Esha Rao,6000,1
+Dell OptiPlex 3080,Desktop,SN-OP3080-12,48000,2020-09-03,fair,,22000,3
+Lenovo ThinkCentre M70,Desktop,SN-TC70-13,50000,2022-01-25,good,IDLE,0,0
+HP ProBook 450 G8,Laptop,SN-PB450-14,68000,2022-05-16,good,Ravi Iyer,8000,1
+HP ProBook 440 G5,Laptop,SN-PB440-15,55000,2019-12-02,poor,,47000,6
+Apple MacBook Pro 14,Laptop,SN-MBP14-16,195000,2023-10-20,new,Meera Nair,0,0
+Dell Latitude 7420,Laptop,SN-L7420-17,98000,2022-02-14,good,Dev Menon,5000,1
+Asus VivoBook 15,Laptop,SN-VB15-18,45000,2021-03-09,fair,,15000,3
+Samsung 24in Monitor,Monitor,SN-SM24-19,14000,2022-08-19,good,IDLE,0,0
+Dell U2723QE Monitor,Monitor,SN-U27-20,52000,2024-04-02,new,Esha Rao,0,0
+BenQ GW2480 Monitor,Monitor,SN-BQ24-21,12000,2019-06-11,poor,,3500,2
+iPad Air 5th Gen,Tablet,SN-IPA5-22,60000,2023-03-28,good,Meera Nair,0,0
+Samsung Galaxy Tab S7,Tablet,SN-GT7-23,55000,2021-10-07,fair,IDLE,6000,1
+iPhone 13,Phone,SN-IP13-24,70000,2022-11-04,good,Ravi Iyer,4500,1
+Samsung Galaxy S21,Phone,SN-GS21-25,65000,2021-05-22,poor,,18000,3
+Cisco Catalyst 2960,Networking,SN-CS29-26,90000,2019-04-15,fair,,30000,3
+TP-Link Archer AX55,Networking,SN-TL55-27,9000,2023-02-18,good,IDLE,0,0
+HP LaserJet Pro M404,Printer,SN-LJ404-28,32000,2020-07-27,fair,,14000,4
+Epson EcoTank L3250,Printer,SN-EP32-29,18000,2023-09-13,good,,1200,1
+Logitech C920 Webcam,Accessory,SN-LW920-30,7000,2022-12-01,good,IDLE,0,0

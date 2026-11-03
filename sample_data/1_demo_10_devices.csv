@@ -1,0 +1,11 @@
+name,category,serial,cost,bought,condition,assigned_to,maintenance_cost,service_count
+Dell Latitude 5440,Laptop,SN-D5440-01,85000,2022-03-10,fair,Esha Rao,27000,2
+HP EliteDesk 800,Desktop,SN-HP800-02,60000,2020-02-20,poor,,41000,4
+LG 27 Monitor,Monitor,SN-LG27-03,22000,2023-06-01,good,IDLE,0,0
+MacBook Air M2,Laptop,SN-MBA-04,110000,2024-01-15,good,Dev Menon,0,0
+Lenovo ThinkPad E14,Laptop,SN-TP14-05,72000,2023-04-12,good,Ravi Iyer,0,0
+Dell P2419H Monitor,Monitor,SN-P24-06,18000,2021-08-05,poor,,2000,1
+iPad 9th Gen,Tablet,SN-IP9-07,38000,2022-09-01,good,IDLE,0,0
+Acer Aspire 5,Laptop,SN-AC5-08,52000,2020-11-18,poor,,38000,5
+Samsung Galaxy Tab A8,Tablet,SN-GT8-09,24000,2025-02-10,new,Meera Nair,0,0
+HP LaserJet Pro,Printer,SN-LJ-10,28000,2021-05-30,fair,,9000,2

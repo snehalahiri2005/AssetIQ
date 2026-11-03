@@ -1,0 +1,10 @@
+# PostgreSQL with database/schema.sql loaded on first start
+services:
+  db:
+    image: postgres:16
+    environment: { POSTGRES_USER: assetiq, POSTGRES_PASSWORD: assetiq, POSTGRES_DB: assetiq }
+    ports: ["5432:5432"]
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./database/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+volumes: { pgdata: {} }
