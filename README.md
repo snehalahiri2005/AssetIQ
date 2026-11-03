@@ -56,9 +56,3 @@ Logins (password `password123`): `admin@assetiq.dev`, `manager@assetiq.dev`, `es
 - **Keep vs replace** compares 36 months of expected repairs and downtime (rising 2% a month) against the price of a new device minus salvage.
 - All thresholds live in the `settings` table and can be changed on the Settings page.
 
-## Likely viva questions
-- **Why PostgreSQL?** Relational integrity (foreign keys, CHECK constraints, partial unique index so an asset has one open assignment), triggers for the audit log, and a view that computes metrics in SQL.
-- **How is history protected?** Each event stores a hash of the previous one, written by a trigger; updates and deletes are blocked. `verify_chain()` flags any edit. Someone with full database superuser rights could still rebuild a chain, so this is tamper-*evident*, not tamper-proof; the next step would be to anchor hashes externally.
-- **Is the QR secure?** The label carries an HMAC-SHA256 signature derived from the server secret and checked in constant time. A fake label is rejected and reveals nothing, all page output is HTML-escaped, and costs are never on the public page.
-- **Is the cost data automatic?** Purchase and service costs are entered once or imported; everything else is computed.
-- **Limitations:** weights and failure rates are assumptions, not trained on real failure data; no ERP or device-telemetry integration; thresholds are organisation-wide rather than per category.
